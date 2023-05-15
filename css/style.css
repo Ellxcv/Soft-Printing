@@ -93,7 +93,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url(../pic/landing2.jpeg);
+  background-image: url(../pic/WhatsApp Image 2023-05-15 at 22.14.35.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -131,7 +131,7 @@ body {
   margin-top: 1rem;
   line-height: 1.4rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
+  font-weight: 600;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   color: #faf8f1;
 }
