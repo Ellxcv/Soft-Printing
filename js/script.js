@@ -42,9 +42,9 @@ function sendMessage() {
   var email = document.getElementById("email").value;
   var nomorHp = document.getElementById("nomor-hp").value;
 
-  var pesan = "Halo, saya tertarik untuk pesan sekarang.%0A%0A";
-  pesan += "Nama: " + encodeURIComponent(nama) + "%0A";
-  pesan += "Email: " + encodeURIComponent(email) + "%0A";
+  var pesan = "Halo, saya tertarik untuk pesan sekarang.";
+  pesan += "Nama: " + encodeURIComponent(nama) + " ";
+  pesan += "Email: " + encodeURIComponent(email) + " ";
   pesan += "Nomor HP: " + encodeURIComponent(nomorHp);
 
   var link =
@@ -53,3 +53,4 @@ function sendMessage() {
 
   window.open(link, "_blank");
 }
+
